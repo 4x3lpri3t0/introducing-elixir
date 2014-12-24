@@ -27,3 +27,10 @@ end
 
 # Use defp instead of def for private functions
 
+# You can specify the function to retrieve with
+# a single argument in the form Module_name.function_name/arity
+# Arity is the number of arguments a function takes:
+
+# fun = &Drop.fall_velocity/1
+
+# fun.(20)
