@@ -24,5 +24,11 @@ defmodule Drop do
       velocity >= 20 -> :speedy
     end
   end
-  
+
 end
+
+# Because that value is the last thing returned within the
+# function, that becomes the return value of the function.
+
+# Elixir evaluates the cond and if statements on the basis of truthiness.
+# All values are considered to be true except nil and false.
